@@ -47,7 +47,7 @@
             "type": "text",
             "style": "plain",
             "foreground": "#ffffff",
-            "template": "{{ if .Env.AWS_PROFILE }} {{ .Env.AWS_PROFILE }}"
+            "template": "{{ .Env.AWS_PROFILE }}"
             }
           },
           {
