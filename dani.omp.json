@@ -42,6 +42,15 @@
             "style": "plain",
             "template": "<#ffffff>on</> {{ .HEAD }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
             "type": "git"
+          },
+          {
+            "type": "command",
+            "style": "plain",
+            "foreground": "#ffffff",
+            "properties": {
+              "shell": "bash",
+              "command": "git log --pretty=format:%cr -1 || date +%H:%M:%S"
+            }
           }
         ],
         "type": "prompt"
