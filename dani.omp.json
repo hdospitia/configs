@@ -51,6 +51,19 @@
               "shell": "bash",
               "command": "[[ -v AWS_PROFILE ]] && echo  $AWS_PROFILE"
             }
+          },
+          {
+            "type": "executiontime",
+            "style": "powerline",
+            "powerline_symbol": "",
+            "foreground": "#ffffff",
+            "background": "#8800dd",
+            "template": " <#fefefe></> {{ .FormattedMs }} ",
+            "properties": {
+              "threshold": 500,
+              "style": "austin",
+              "always_enabled": true
+            }
           }
         ],
         "type": "prompt"
