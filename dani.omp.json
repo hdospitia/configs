@@ -56,7 +56,7 @@
             "type": "executiontime",
             "style": "plain",
             "foreground": "#ffffff",
-            "template": " <#fefefe></> {{ .FormattedMs }} ",
+            "template": " <#fefefe>  </> {{ .FormattedMs }} ",
             "properties": {
               "threshold": 500,
               "style": "austin",
