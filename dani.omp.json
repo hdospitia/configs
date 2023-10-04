@@ -42,24 +42,6 @@
             "style": "plain",
             "template": "<#ffffff>on</> {{ .HEAD }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
             "type": "git"
-          },
-          {
-            "type": "text",
-            "style": "plain",
-            "foreground": "#ffffff",
-            "template": "{{ .Env.AWS_PROFILE }}"
-            }
-          },
-          {
-            "type": "executiontime",
-            "style": "plain",
-            "foreground": "#ffffff",
-            "template": " <#fefefe>  </> {{ .FormattedMs }} ",
-            "properties": {
-              "threshold": 500,
-              "style": "austin",
-              "always_enabled": true
-            }
           }
         ],
         "type": "prompt"
