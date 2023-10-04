@@ -44,12 +44,10 @@
             "type": "git"
           },
           {
-            "type": "command",
+            "type": "text",
             "style": "plain",
             "foreground": "#ffffff",
-            "properties": {
-              "shell": "bash",
-              "command": "[[ -v AWS_PROFILE ]] && echo \udb83\ude0f $AWS_PROFILE"
+            "template": "{{ if .Env.AWS_PROFILE }} {{ .Env.AWS_PROFILE }}"
             }
           },
           {
