@@ -49,7 +49,7 @@
             "foreground": "#ffffff",
             "properties": {
               "shell": "bash",
-              "command": "[[ $AWS_SHELL == 'yes' ]] && aws sts get-caller-identity --query 'Account"
+              "command": "[[ $AWS_SHELL == 'yes' ]] && aws sts get-caller-identity --query 'Account'"
             }
           }
         ],
