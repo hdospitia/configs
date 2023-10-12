@@ -22,7 +22,7 @@
           {
             "foreground": "cyan",
             "properties": {
-              "style": "folder"
+              "style": "mixed"
             },
             "style": "plain",
             "template": "<#ffffff>in</> {{ .Path }} ",
