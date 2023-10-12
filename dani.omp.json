@@ -22,7 +22,7 @@
           {
             "foreground": "cyan",
             "properties": {
-              "style": "agnoster_short"
+              "style": "unique"
             },
             "style": "plain",
             "template": "<#ffffff>in</> {{ .Path }} ",
