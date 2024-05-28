@@ -29,13 +29,13 @@
             "type": "path"
           },
           {
-            "foreground": "#ff94df",
+            "foreground": "#AC0E0E",
             "properties": {
-              "branch_icon": " <#ff94df><b>\ue0a0 </b></>",
+              "branch_icon": " <#AC0E0E><b>\ue0a0 </b></>",
               "fetch_stash_count": true
             },
             "style": "plain",
-            "template": "<#ffffff>on</> {{ .HEAD }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
+            "template": "<#A97A4B>on</> {{ .HEAD }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
             "type": "git"
           },
           {
