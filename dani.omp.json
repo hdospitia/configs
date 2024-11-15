@@ -5,7 +5,7 @@
         "alignment": "left",
         "segments": [
           {
-            "foreground": "#4B1931",
+            "foreground": "#306C85",
             "properties": {
               "time_format": "15:05"
             },
@@ -14,7 +14,7 @@
             "type": "time"
           },
           {
-            "foreground": "#6B241D",
+            "foreground": "#306C85",
             "style": "plain",
             "template": "󰇝 {{ .UserName }} ",
             "type": "session"
