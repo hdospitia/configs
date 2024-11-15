@@ -25,7 +25,7 @@
               "style": "agnoster_full"
             },
             "style": "plain",
-            "template": "<#3C2972>in</> {{ .Path }} ",
+            "template": "<#306C85>in</> {{ .Path }} ",
             "type": "path"
           },
           {
@@ -53,7 +53,7 @@
           {
             "type": "executiontime",
             "style": "plain",
-            "foreground": "#1D4B90",
+            "foreground": "#306C85",
             "template": "󰇝 󱦟 {{ .FormattedMs }} ",
             "properties": {
               "threshold": 500,
