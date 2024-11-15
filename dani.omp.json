@@ -5,7 +5,7 @@
         "alignment": "left",
         "segments": [
           {
-            "foreground": "#93BCCD",
+            "foreground": "#CEE3EB",
             "properties": {
               "time_format": "15:05"
             },
@@ -14,7 +14,7 @@
             "type": "time"
           },
           {
-            "foreground": "#93BCCD",
+            "foreground": "#CEE3EB",
             "style": "plain",
             "template": "󰇝 {{ .UserName }} ",
             "type": "session"
@@ -25,7 +25,7 @@
               "style": "agnoster_full"
             },
             "style": "plain",
-            "template": "<#93BCCD>in</> {{ .Path }} ",
+            "template": "<#CEE3EB>in</> {{ .Path }} ",
             "type": "path"
           },
           {
