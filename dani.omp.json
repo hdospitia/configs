@@ -5,7 +5,7 @@
         "alignment": "left",
         "segments": [
           {
-            "foreground": "#306C85",
+            "foreground": "#93BCCD",
             "properties": {
               "time_format": "15:05"
             },
@@ -14,7 +14,7 @@
             "type": "time"
           },
           {
-            "foreground": "#306C85",
+            "foreground": "#93BCCD",
             "style": "plain",
             "template": "󰇝 {{ .UserName }} ",
             "type": "session"
@@ -25,7 +25,7 @@
               "style": "agnoster_full"
             },
             "style": "plain",
-            "template": "<#306C85>in</> {{ .Path }} ",
+            "template": "<#93BCCD>in</> {{ .Path }} ",
             "type": "path"
           },
           {
@@ -53,7 +53,7 @@
           {
             "type": "executiontime",
             "style": "plain",
-            "foreground": "#306C85",
+            "foreground": "#93BCCD",
             "template": "󰇝 󱦟 {{ .FormattedMs }} ",
             "properties": {
               "threshold": 500,
